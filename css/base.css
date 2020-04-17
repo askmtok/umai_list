@@ -11,8 +11,8 @@
 body {
 	margin: 0;
 	--color-text: #111;
-	--color-bg: #f8ecde;
-	--color-link: #b19e7f;
+	--color-bg: #ffffff;
+	--color-link: #ff0000;
 	--color-link-hover: #000;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -25,7 +25,7 @@ body {
 
 main::before {
 	animation: grain 8s steps(10) infinite;
-	background-image: url(../img/noise.png);
+	/*background-image: url(../img/noise.png); */
 	content: '';
 	height: 300%;
 	left: -50%;
